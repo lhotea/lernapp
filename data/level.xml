@@ -1,0 +1,52 @@
+<levels>
+ <level id="level-1">
+<country capital="Amsterdam" name="Niederlande" />
+<country capital="Ankara" name="Türkei" />
+<country capital="Andorra la Vella" name="Andorra" />
+<country capital="Athen" name="Griechenland" />
+<country capital="Belgrad" name="Serbien" />
+<country capital="Berlin" name="Deutschland" />
+<country capital="Bern" name="Schweiz" />
+<country capital="Bratislava" name="Slowakei" />
+<country capital="Brüssel" name="Belgien" />
+<country capital="Budapest" name="Ungarn" />
+<country capital="Bukarest" name="Rumänien" />
+<country capital="Città di San Marino" name="San Marino" />
+<country capital="Chișinău" name="Moldawien" />
+<country capital="Dublin" name="Irland" />
+<country capital="Helsinki" name="Finnland" />
+<country capital="Kiew" name="Ukraine" />
+<country capital="Kopenhagen" name="Dänemark" />
+<country capital="Lissabon" name="Portugal" />
+<country capital="Ljubljana" name="Slowenien" />
+<country capital="London" name="Vereinigtes Königreich" />
+<country capital="Luxemburg" name="Luxemburg" />
+<country capital="Madrid" name="Spanien" />
+<country capital="Minsk" name="Weißrussland" />
+<country capital="Monaco" name="Monaco" />
+<country capital="Moskau" name="Russland" />
+<country capital="Nikosia" name="Zypern" />
+<country capital="Oslo" name="Norwegen" />
+<country capital="Paris" name="Frankreich" />
+<country capital="Podgorica" name="Montenegro" />
+<country capital="Prag" name="Tschechien" />
+<country capital="Reykjavík" name="Island" />
+<country capital="Riga" name="Lettland" />
+<country capital="Rom" name="Italien" />
+<country capital="Sarajevo" name="Bosnien und Herzegowina" />
+<country capital="Skopje" name="Mazedonien" />
+<country capital="Sofia" name="Bulgarien" />
+<country capital="Stockholm" name="Schweden" />
+<country capital="Tallinn" name="Estland" />
+<country capital="Tirana" name="Albanien" />
+<country capital="Vaduz" name="Liechtenstein" />
+<country capital="Valletta" name="Malta" />
+<country capital="Vatikanstadt" name="Vatikanstadt" />
+<country capital="Vilnius" name="Litauen" />
+<country capital="Warschau" name="Polen" />
+<country capital="Wien" name="Österreich" />
+<country capital="Zagreb" name="Kroatien" />
+ </level>
+</levels>
+
+  

@@ -1,0 +1,39 @@
+.multiback2 {
+/*    width: 400px;*/
+	height: 180px;
+
+	padding: 10px 10px 10px 10px;
+	background-color: #a0e0ff;
+	background-image: url(../images/bloomIcon.png), url(../images/horizon.png), url(../images/startupbloom.png);
+	background-position: 0 0, 30px 50px, 0 75px;
+	background-repeat: repeat-x, no-repeat, repeat-x;
+}
+
+.multiback {
+	width: 400px;
+	height: 180px;
+	padding: 10px 10px 10px 10px;
+	background-color: #a0e0ff;
+	background-image: url(../images/bloomIcon.png), url(../images/horizon.png), url(../images/startupbloom.png);
+	background-repeat: repeat-x, repeat-x, repeat-x;
+}
+
+.multibackstart {
+	background-position: 0 0, 0 50px, 0 100px;
+}
+
+.multibackprocess {
+	-moz-transition-property: background-position;  
+	-moz-transition-duration: 30s;
+	-moz-transition-timing-function: linear;
+	-webkit-transition-property: background-position;  
+	-webkit-transition-duration: 30s;  
+	-webkit-transition-timing-function: linear;
+	-o-transition-property: background-position;  
+	-o-transition-duration: 30s;  
+	-o-transition-timing-function: linear;
+	transition-property: background-position;  
+	transition-duration: 30s;  
+	transition-timing-function: linear;
+	background-position: -5400px 0, -4600px 50px, -3800px 100px;
+}						

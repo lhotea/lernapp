@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+        <head>
+<meta charset="utf-8">
+<title>LearningApp</title>
+
+
+    <!-- web app /-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <link rel="apple-touch-startup-image" href="images/lernapp.png" />
+    <link rel="apple-touch-icon" href="images/lernapp.png" />
+    <link rel="apple-touch-icon-precomposed" href="images/learnapp.png" />      
+    <link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />    
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.mobile-1.2.0.min.js"></script>
+	<script src="lib/learningapp.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true&libraries=places"></script>
+
+<style type="text/css">
+     html, body, #map-canvas 
+    {
+        margin: 0;
+        padding: 0;
+        height: 400px;
+    }
+    
+    .la-hidden
+    {
+    	display: none;
+    }
+    </style>
+ 
+
+        </head>
+ 
+        <body>
+<!-- Home -->
+  <div data-role="page" id="pays">
+      <div data-theme="a" data-role="header">
+          <h3>
+              Lern App
+          </h3>
+      </div>
+
+<div data-role="content">
+          <ul data-role="listview" data-divider-theme="b" data-inset="true" id="pays-list" >
+              <li data-role="list-divider" role="heading">
+                  Land
+              </li>
+              <li data-theme="b" class="country la-hidden" country="Default" capitale="Default"  >
+                  <a href="#capitale" data-transition="slide">
+					Default
+				</a>
+              </li>
+          </ul>
+
+ </div>
+      <div id="main-header" data-theme="a" data-role="footer" data-position="fixed">
+          <h3>
+              Arnaud's Apps
+          </h3>
+      </div>
+  </div>
+  
+   <div data-role="page" id="capitale">
+      <div data-theme="a" data-role="header">
+      <div id="header-grid" class="ui-grid-b a">
+              <div class="ui-block-a"><h4>Hauptstädte</h4></div>      
+              <div class="ui-block-b">
+          <h4>
+              Lern App
+          </h4>
+          </div>
+              <div class="ui-block-c">
+              <a href="#pays" data-transition="flip" data-theme="a" data-role="button" data-icon="">
+                          Zurück
+                      </a>
+              </div>
+          </div>
+          
+          
+      </div>
+      <div data-role="content" id="header-capitale" >
+          <ul data-role="listview" data-divider-theme="b" data-inset="true">
+              <li data-role="list-divider" role="heading">
+                  Country - x
+              </li>
+              <li>capitale</li>
+         </ul>
+		<div id="map-canvas"></div>
+
+	</div>
+      <div id="main-header" data-theme="a" data-role="footer" data-position="fixed">
+          <h3>
+              Arnaud's Apps
+          </h3>
+      </div>
+  </div>
+  
+  
+        </body>
+</html>
